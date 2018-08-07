@@ -1,5 +1,6 @@
 # DatabindingBase
 一个基于 databinding 的基类库，包含BaseActivity,BaseFragment。
+
 支持：
 1、下拉刷新
 2、上拉加载更多
