@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">DataBindingLibrary</string>
+
+    <string name="pageload_loading">努力加载中...</string>
+    <string name="pageload_empty">暂无数据</string>
+    <string name="pageload_error" >加载失败,点击重试</string>
+    <string name="server_string_null">服务器内部异常,请稍候再试~</string>
+
+    <string name="load_loading">正在加载...</string>
+    <string name="load_more">上拉加载更多</string>
+    <string name="load_nomore">没有更多内容了</string>
+</resources>

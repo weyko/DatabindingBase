@@ -1,0 +1,128 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimary</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+    </style>
+    <style name="LightTheme">
+        <!-- Customize your theme here. -->
+        <item name="colorAccent">@android:color/white</item>
+    </style>
+
+    <style name="mainTheme" parent="AppTheme">
+        <item name="android:windowIsTranslucent">false</item>
+    </style>
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="textDefault">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">@dimen/textsize_default</item>
+        <item name="android:drawablePadding">@dimen/drawable_padding</item>
+        <item name="android:textColor">@android:color/background_dark</item>
+    </style>
+
+    <style name="textMedium" parent="textDefault">
+        <item name="android:textSize">@dimen/textsize_medium</item>
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+
+    <style name="textSmall">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">@dimen/textsize_small</item>
+        <item name="android:textColor">@color/text_color_mark</item>
+    </style>
+
+    <style name="textLarger">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">@dimen/textsize_larger</item>
+        <item name="android:textColor">@color/text_color_title</item>
+    </style>
+
+    <style name="textMenu" parent="@style/textDefault">
+        <item name="android:padding">@dimen/menu_padding</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:enabled">true</item>
+        <item name="android:clickable">true</item>
+    </style>
+
+    <style name="textTitle" parent="@style/textDefault">
+        <item name="android:padding">@dimen/layout_padding</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textSize">18dp</item>
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+    <style name="a_line">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">1dp</item>
+        <item name="android:background">@color/b_tm_light</item>
+    </style>
+
+    <style name="a_line1">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">0.1dp</item>
+        <item name="android:background">@color/bg_line</item>
+    </style>
+
+    <style name="a_line_v">
+        <item name="android:layout_width">1px</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:background">@color/bg_line</item>
+    </style>
+
+    <style name="btnStyle1">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">@drawable/btn_selector</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textSize">15dp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:padding">12dp</item>
+        <item name="android:layout_margin">@dimen/margin_btn</item>
+        <item name="android:clickable">true</item>
+        <item name="android:enabled">true</item>
+    </style>
+
+    <style name="btnStyle2" parent="btnStyle1">
+        <item name="android:layout_marginRight">@dimen/margin_btn</item>
+        <item name="android:layout_marginLeft">@dimen/margin_btn</item>
+        <item name="android:layout_marginTop">@dimen/margin_10dp</item>
+        <item name="android:layout_marginBottom">@dimen/margin_10dp</item>
+    </style>
+
+    <style name="AlertDialogTheme" parent="Theme.AppCompat.Light.Dialog.Alert">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="btnStyle_default">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">@drawable/btn_selector</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textSize">15dp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:padding">10dp</item>
+        <item name="android:clickable">true</item>
+        <item name="android:enabled">true</item>
+    </style>
+
+    <style name="btnStyle" parent="btnStyle_default">
+        <item name="android:layout_marginLeft">@dimen/margin_btn</item>
+        <item name="android:layout_marginRight">@dimen/margin_btn</item>
+        <item name="android:layout_marginTop">@dimen/page_padding</item>
+    </style>
+</resources>
